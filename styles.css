@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Gudetama';
+    src: url('Sile.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box; /* Ensures padding/margins don't cause overflow */
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #ffd75c;
+    font-family: 'Gudetama', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: repeating-linear-gradient(45deg, #ffd247 0px, #ffd247 20px, 
+                 #ffd75c 20px, #ffd75c 40px, #ffdc6e 40px, #ffdc6e 60px);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    background-color: rgb(255, 199, 78);
+    border-radius: 90px;
+    position: sticky;
+    top: 10px;
+    height: 50px;
+    font-size: 30px;
+    color: #ad7000;
+    margin-bottom: 50px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+}
+
+.nav-link {
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    padding: auto;
+    display: flex;
+    margin: auto;
+    width: auto;
+    padding: 0 30px;
+    color: #ad7000;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+#welcome-hero {
+    height: 200px;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#welcome-hero h1 {
+    font-size: 70px;
+    color: #d28500;
+}
+
+#welcome-hero h2 {
+    color: #a36700;
+}
+
+#white-space {
+    height: 5000px;
+    width: 100vw;
+    background-color: red;
+}
