@@ -19,6 +19,7 @@ body {
     align-items: center;
     background: repeating-linear-gradient(45deg, #ffd247 0px, #ffd247 20px, 
                  #ffd75c 20px, #ffd75c 40px, #ffdc6e 40px, #ffdc6e 60px);
+    background-attachment: fixed;
 }
 
 nav {
@@ -70,8 +71,8 @@ nav a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-attachment: fixed;
     background-size: cover;
+    
 }
 
 #welcome-hero h1 {
