@@ -34,6 +34,7 @@ nav {
     font-size: 30px;
     color: #ad7000;
     margin-bottom: 50px;
+    
 }
 
 nav ul {
@@ -49,11 +50,11 @@ nav ul {
     height: 100%;
     text-align: center;
     align-items: center;
-    padding: auto;
+    padding: 2vw 3vw;
     display: flex;
     margin: auto;
     width: auto;
-    padding: 0 30px;
+    padding: 0 auto;
     color: #ad7000;
 }
 
@@ -89,3 +90,29 @@ nav a {
     width: 100vw;
     background-color: red;
 }
+
+#about {
+    margin: 0;
+    width: 80vw;
+    margin-left: -10vw;
+    padding: 2vw;
+    border-radius: 20px;
+    background-color: #ffcf5f97;
+    color: #704700;
+}
+
+#about h1 {
+    font-size: 50px;
+}
+
+#about h5 {
+    font-size: 20px;
+}
+
+@media (min-width: 1024px) {
+    .nav-link {
+      padding-left: 5vw;
+      padding-right: 5vw;
+    }
+
+  }
