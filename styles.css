@@ -109,6 +109,32 @@ nav a {
     font-size: 20px;
 }
 
+#gudetama-countdown {
+    display: flex;
+    width: 40vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#gudetama-countdown div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+#gudetama-countdown div h1 {
+    font-size: 100px;
+}
+
+#gudetama-countdown div h2 {
+    margin: auto;
+    font-size: 50px;;
+}
+
 @media (min-width: 1024px) {
     .nav-link {
       padding-left: 5vw;
